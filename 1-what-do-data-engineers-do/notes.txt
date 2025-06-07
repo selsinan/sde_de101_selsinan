@@ -68,3 +68,10 @@ Operational Easiness
 
 Draft c4 or Sequence Diagram
 
+Core Responsibilities of Data Engineer
+1. Move data between systems
+2. Manage data warehouse
+3. Schedule, execute, and monitor data pipelines
+4. Serve data to the end-users
+5. Data strategy for the company
+6. Deploy ML models to production
