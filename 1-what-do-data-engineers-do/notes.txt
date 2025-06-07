@@ -1,0 +1,70 @@
+Imagine that you are hired to enable data analytics; where would you start? 
+How would you go about gathering requirements?
+Hint: Think backward from what the business may need
+
+
+- As high level overview, I would prioritise understanding business requirements first. 
+
+High Level Requirements
+* Business Requirements
+* Stakeholder Requirements
+* Functional/Nonfunctional
+* Assumptions/Constraints
+
+(Cost/Time/Scope) - Tradeoffs
+
+
+What is primary initiative for company and how could I bring business value? (cost saving, marketing expansion)
+
+Misalignment within goals and not understanding business may put data engineer as operator rather than business partner.
+
+- Understanding key stakeholders is really important. "Aligned" book proposes a good framework for it. 
+
+Plotting your stakeholders in this way can help you identify stakeholders who present the greatest risk to your product, and then prioritize moving them toward alignment. Here’s a closer look at each category to help you decide where your stakeholders best fit.
+
+Ally (High Power, High Alignment): Power Players* or people actively contributing to your product who are invested in its success and supportive of your plans
+Challenger (High Power, Low Alignment): Power Players who are indifferent to your product plans or actively opposed to them
+Supporter (Low Power, High Alignment): People invested in your product’s success, and supportive of your plans, who have little power to influence your decisions or your alignment with others
+Observer (Low Power, Low Alignment): Anyone indifferent or even opposed to your product plans but who has little power to help or hinder you
+
+*Power Players are the people who can make or break your product because they have the personal authority to insist you take a particular direction or make specific changes. 
+
+The DiSC personality types (Dominance, Influence, Steadiness, and Conscientiousness) provide a simple way of understanding how different people typically think and act.
+
+- Requirements can be divided as Functional and Non Functional Requirements. I will consider all data lifecycle management (Ingestion-Transformation-Serving-Data Management-Storage) for requirements. 
+"Fundamentals of Data Engineering" book proposes a good reference for it.  
+
+Functional Requiremente explains what the system needs to be able.
+Non Functional Requirement explains how the system needs to be able.
+
+
+Requirements Collection: 
+
+** Functional Requirements
+
+1. Who will use this system and how? 
+        1. Technical or Nontechnical
+2. List the user roles
+3. Pay attention to numbers (p99 response time, query per second)
+4. Be mindful of time
+5. Discuss testing, maintainability, debuggability, complexity, security, privacy
+6. Consider and discuss graceful degradation (fault tolerance)
+7. Draw system diagrams, flowcharts, sequence diagrams
+8. Discuss improvements
+9. Localisation support (i18n, L10n)
+ 
+
+** Non Functional Requirements
+
+Scalabilty
+Availability: 99.9 5 hours
+Performance
+Fault-tolerance
+Security
+Privacy
+Consistency
+Cost
+Operational Easiness
+
+Draft c4 or Sequence Diagram
+
